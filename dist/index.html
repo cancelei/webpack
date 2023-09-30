@@ -1,11 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wbpack Exercise Yess!! I did it!</title>
+    <!-- Character Set: Specifies the character encoding for the HTML document (should be the very first line of the <head> section) -->
+    <meta charset="UTF-8" />
+
+    <!-- IE Compatibility: Specifies the mode IE should use to display the webpage -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Viewport: Controls the page's dimensions and scaling -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Description: Provides a brief description of the page -->
+    <meta name="description" content="A description of the page's content." />
+
+    <!-- Keywords: Specifies keywords for search engines (not so relevant nowadays but can be included) -->
+    <meta name="keywords" content="seokeyword1, seokeyword2, seokeyword3" />
+
+    <!-- Author: Specifies the author of the page, it could be the client’s name or the company’s name -->
+    <meta name="author" content="Client Company Name" />
+
+    <!-- Open Graph for Social Media used by Facebook, WhatsApp, LinkedIn, Pinterest, Telegram, Twitter, Skype, Viber, Reddit, and Slack for link previews. -->
+    <!-- Open Graph Protocol: Enhances the page to allow rich objects to be shared on social media platforms like Facebook -->
+    <meta property="og:url" content="https://clientdomain.com/" />
+    <meta property="og:title" content="Project Title" />
+    <meta property="og:description" content="A description of the page's content." />
+    <meta property="og:type" content="website" />
+    <!-- Can be website, article, video, etc. -->
+    <meta property="og:image" content="https://clientdomain.com/path-to-image.jpg" />
+    <meta property="og:image:alt" content="Description of the image" />
+
+    <!-- X/Twitter Cards: Similar to Open Graph but for Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://clientdomain.com/" />
+    <meta property="twitter:title" content="Project Title" />
+    <meta property="twitter:description" content="A description of the page's content." />
+    <meta property="twitter:image" content="https://clientdomain.com/path-to-twitter-image.jpg" />
+
+    <!-- Verification and Analytics: For verifying ownership of your site with webmaster tools and integrating analytics -->
+    <!-- <meta name="google-site-verification" content="verification_token" />
+    <meta name="msvalidate.01" content="verification_token" />
+    <meta name="yandex-verification" content="verification_token" />
+    <meta name="google-analytics" content="UA-XXXXXXXXX-X" />
+    <meta name="google-tag-manager" content="GTM-XXXXXXX" /> -->
+
+    <!-- Favicon: Icon associated with the website, displayed next to the site's name in the tab bar of the browser -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/path-to-your/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/path-to-your/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/path-to-your/favicon-16x16.png" />
+
+    <!-- Title: Specifies the title of the HTML document (displayed in the browser's title bar or tab) -->
+    <title>Project Title</title>
+
+    <!-- Stylesheets: Links CSS to HTML document -->
+    <link rel="stylesheet" href="/path-to-your/styles.css" />
+
+    <!-- For Production > Content Security Policy: Helps prevent a range of attacks, including Cross-Site Scripting (XSS) -->
+    <!-- <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; img-src https://*; child-src 'none'; script-src 'self' https://* 'unsafe-inline'; style-src 'self' https://* 'unsafe-inline';" /> -->
+
+    <!-- FOr Development Updated Content Security Policy for Security -->
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self' http://localhost:8080; img-src https://* http://localhost:8080; child-src 'none'; script-src 'self' http://localhost:8080 'unsafe-eval';" />
+
 <script defer src="main.js"></script></head>
+
 <body>
-    <h1>Hello webpack! Yes I did it again! 200000111</h1>
+    <h1>Project's H1 Tag</h1>
 </body>
+
 </html>
